@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #f9fafb;
+  position: fixed;
+}
+
+header > nav {
+  width: calc(100% - 100px);
+  margin: 0px auto;
+  max-width: 1440px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+header > nav > img {
+  height: 60px;
+  display: block;
+}
+
+button.nav-btn {
+  width: auto;
+  padding: 10px 20px;
+  flex: 0 0 100px;
+}
